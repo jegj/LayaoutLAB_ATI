@@ -61,13 +61,13 @@ img.alignleft {
 	display: inline;
 	}
 	
-#contenedorprincipal {
+#contenedorprincipal { /***Contenedor grande de toda la paginas***/
 	width: 960px;
 	margin: 0 auto;	
 	padding: 0px;
 }
 
-#encabezado {
+#encabezado {/***header***/
 	width: 958px;
 	height: 167px;
 	margin: 0px 0px 0px 0px;
@@ -79,7 +79,7 @@ img.alignleft {
 }
 
 
-#encabezado h1 {
+#encabezado h1 { /***header***/
 	color: #ffffff;
 	letter-spacing: -1px;
 	font-size: 36px;
@@ -88,7 +88,7 @@ img.alignleft {
 	padding: 0px;
 }
 
-#encabezado p {
+#encabezado p { /***header***/
 	margin-top: 0px;
 	margin-left: 32px;
 	margin-bottom: 0px;
@@ -98,13 +98,14 @@ img.alignleft {
 	color: #accbea;
 }
 
+/***header***/
 #encabezado h1 a, #encabezado h1 a:visited, #encabezado h1 a:active, #encabezado h1 a:hover {
 	color: #ffffff;
 	font-size: 36px;
 	text-decoration: none;
 }
 
-#menuprincipal {
+#menuprincipal {/***topmenu***/
 	float: left;
 	position: absolute;
 	top: 130px;
@@ -112,13 +113,13 @@ img.alignleft {
 	margin: 0px;
 }
 
-#menuprincipal ul {
+#menuprincipal ul {/***topmenu***/
 	display: inline;
 	margin: 0px;
 	padding: 0px;
 }
 
-#menuprincipal li {
+#menuprincipal li {/***topmenu***/
 	display: inline;
 	list-style: none;
 	margin: 0px;
@@ -126,6 +127,7 @@ img.alignleft {
 
 }
 
+/***topmenu***/
 #menuprincipal li a, #menuprincipal li a:visited, #menuprincipal li a:active {
 	display: block;
 	color: #222222;
@@ -135,24 +137,25 @@ img.alignleft {
 	margin: 0px 3px 0px 0px;
 	padding: 12px 10px 11px 0px;
 }
-
+/***topmenu***/
 #menuprincipal li a span, #menuprincipal li a:visited span, #menuprincipal li a:active span {
 	background: url('images/blue-bl.gif') top left no-repeat;
 	padding: 12px 15px 11px 25px;
 }
-
+/***topmenu***/
 #menuprincipal li a:hover span {
 	text-decoration: underline;
 }
-
+/***topmenu***/
 #menuprincipal li a.resaltado, #menuprincipal li a:visited.resaltado, #menuprincipal li a:active.resaltado {
 	background: url('images/blue-brh.gif') right top no-repeat;
 }
-
+/***topmenu***/
 #menuprincipal li a.resaltado span, #menuprincipal li a:visited.resaltado span, #menuprincipal li a:active.resaltado span {
 	background: url('images/blue-blh.gif') top left no-repeat;
 }
 
+/***COntenedor de segundo orden, todo el cuerpo de los mensajes y la barra lateral***/
 #contenedorsecundario {
 	float: left;
 	width: 958px;
@@ -162,7 +165,7 @@ img.alignleft {
 	border-left: 1px solid #b4b9bf;
 	border-right: 1px solid #b4b9bf;
 }
-
+/***COntenedor de tercer orden , solo tiene el cuerpo de la pagina***/
 #contenedorterciario {
 	width: 532px;
 	float: left;
@@ -285,7 +288,7 @@ img.alignleft {
 	color: #222222;
 }
 /**************************************************/
-
+/***Solo tiene la barra lateral ***/
 #barralateral {
 	width: 305px;
 	border-left: 1px solid #e7eef5;
@@ -300,7 +303,7 @@ img.alignleft {
 	padding: 12px 15px 12px 15px;
 }
 
-#barralateral .cuadro h2 {
+#barralateral .cuadro h2  {
 	margin-top: 10px;
 }
 
@@ -312,8 +315,7 @@ img.alignleft {
 	border-bottom: 1px solid #e7eef5;
 	font-weight: normal;
 	margin-bottom: 0px;
-	margin-top: 20px;
-
+	margin-top: 20px; 
 }
 
 #barralateral ul {
@@ -366,12 +368,12 @@ img.alignleft {
 	float: left;
 }
 
-
-#searchform {
+/***************************************************/
+#idformulariobusqueda {
 	margin-top: 12px;		
 }
 
-#searchfield {
+#idcampobusqueda {
 	border: 1px solid #b4b9bf;
 	color: #222222;
 	width: 200px;
@@ -379,9 +381,9 @@ img.alignleft {
 	margin: 1px;
 	height: 18px;		
 }
-/***************************************************/
 
-#pie {
+
+#pie { /***footer***/
 	float: left;
 	display: inline;
 	text-align: center;
@@ -408,7 +410,7 @@ img.alignleft {
 	padding: 0px 0px 14px 0px;
 }
 
-.imagencabecera {
+.imagencabecera { 
 	float: right;
 }
 
