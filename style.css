@@ -398,7 +398,7 @@ img.alignleft {
 }
 
 
-.descripcionmensaje {
+.descripcionmensaje {/**entry*/
 	margin: 0px;	
 	padding: 6px 0px 0px 0px;
 }
