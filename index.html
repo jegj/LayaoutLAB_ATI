@@ -1,30 +1,45 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"><title>Inf 08 CSS Template</title><link rel="stylesheet" type="text/css" href="style.css"></head><body>
-
-<div id="container">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8">
+  <title>GESTPRO</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="contenedor">
 
 	<!-- ###  Header  ### -->
 	
 	<div id="header">	
 	
-		<h1><a href="#">INF08 DESIGN</a></h1>
-		<p>Just Another Free CSS Template</p>
+		<div class="imagencabecera">
+		  <img  src="images/niños.jpg" alt="Imagens niños"/>
+		</div>
+		
+		<h1><a href="#">GESTPRO</a></h1>
+		<p>Modulo de Gestion de Proyectos</p>
+		
 
 		<!-- ### Top menu ### -->
 		
+		
 		<div id="topmenu">
-		<ul><li><a href="#" class="highlight"><span>Blog</span></a></li>	
-			<li><a href="#"><span>Lorem</span></a></li>	
-			<li><a href="#"><span>Ipsum</span></a></li>	
-		</ul></div>
 
+		  
+		  <ul>
+		    <li><a href="#" class="highlight"><span>Inicio</span></a></li>	
+		    <!--<li><a href="#"><span>Tareas Pendiente</span></a></li>	
+		    <li><a href="#"><span>Materias que usan </span></a></li>	-->
+		  </ul>
+		</div>
 	</div>
 	<div id="contentcontainer">
 
 		<div id="content">
+		  <div class="post">
+		  
+		  </div>
 		
-		<!-- ### Post Entry Begin ###  -->
-
+		<!-- ### Post Entry Begin ###  
 		<div class="post">
 		<h2><a href="comments.html">Welcome to Template Design</a></h2>
 		<p class="posted"><span class="posttime">March 17, 2009 / Posted by Lorem in <a href="#">Uncategorized</a></span><span class="comments"><a href="comments.html">4 Comments</a></span></p>
@@ -39,9 +54,9 @@
 
 		</div>
 
-		<!-- ### Post Entry End ### -->
+		 ### Post Entry End ### -->
 
-		<!-- ### Post Entry Begin ###  -->
+		<!-- ### Post Entry Begin ###  
 
 		<div class="post">
 		<h2><a href="#">Lorem Ipsum Dolor</a></h2>
@@ -60,39 +75,61 @@
 		<p class="tags">Tags: <a href="#">test</a>, <a href="#">lorem</a>, <a href="#">ipsum</a></p>
 		</div>
 		
-		<!-- ### Post Entry End ###  -->
-		
+		### Post Entry End ###  -->
+		<!--
 		<div class="postpagesnav">
 		<div class="older"><a href="#">« Older entries</a></div>
 		<div class="newer"><a href="#">Newer entries »</a></div>
 		</div>
+		-->
 
 		</div>
 		
 		<!-- ### Sidebar ### -->
 
 		<div id="sidebar">
-		
 		<div class="about">
-		<h2>About</h2>
-		<p>Lorem ipsum dolor sit amet, consectetuer adi piscing elit. Aliquam sem neque, porttitor vesti bulum, porta eu, dignissim non, leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc eu nibh. Vivamus augue lacus, gravida ac, pellentesque nec, varius at, mi. Mauris libero nunc.</p>
+		<h2>Inicio de Sesion</h2>
+		<form id="inicio_sesion" method="get" action="#">
+		  <div>
+		    <label for="cedula">Cedula:</label><br><input type="text" value="" name="ncedula" id="idcedula"><br>
+		    <label for="nclave">Clave:</label><br><input type="password" value="" name="nclave" id="idclave">
+		    <!-- <input type="hidden" id="searchsubmit" value="Search">-->
+		    <br>
+		    <input type="submit" value="Ingresar" name="Ingresar"  id="ingresar">
+		  </div>
+		  <br>
+		  <div>
+		    <a href="#"><span>¿Olvido su clave?</span></a>
+		  </div>
+		</form>  
+		<!--<p>Lorem ipsum dolor sit amet, consectetuer adi piscing elit. Aliquam sem neque, porttitor vesti bulum, porta eu, dignissim non, leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc eu nibh. Vivamus augue lacus, gravida ac, pellentesque nec, varius at, mi. Mauris libero nunc.</p> -->
+		
 		</div>
-
-		<ul><li><h2>Search</h2>
+		<br><br>
+		<!--
+		<ul>
+			    
+			<li><h2>Search</h2>
 			<form id="searchform" method="get" action="#">
 				<div>
 				<input type="text" value="" name="s" id="searchfield"><input type="hidden" id="searchsubmit" value="Search"></div>
 			</form>
 			</li>
-
-
-			<li><h2>Recent Posts</h2>
-			<ul><li><a href="#">Welcome to Template Design</a></li>
-				<li><a href="#">Lorem ipsum dolor</a></li>
-				<li><a href="#">Aliquam sem neque</a></li>
-				<li><a href="#">Vestibulum ante ipsum primis in faucibus</a></li>
-			</ul></li>
-		</ul><!-- ### Sidebar Left ### --><div id="sidebarleft">
+			 
+			<li>
+			  <h2>Recent Posts</h2>
+			  <ul>
+				  <li><a href="#">Welcome to Template Design</a></li>
+				  <li><a href="#">Lorem ipsum dolor</a></li>
+				  <li><a href="#">Aliquam sem neque</a></li>
+				  <li><a href="#">Vestibulum ante ipsum primis in faucibus</a></li>
+			  </ul>
+			</li>
+			
+		</ul>
+		-->
+			<!-- ### Sidebar Left ### <div id="sidebarleft">
 
 			<ul><li><h2>Categories</h2>
 			<ul><li><a href="#">Test Category</a> (3)</li>
@@ -110,10 +147,10 @@
 			</ul></li>
 
 			</ul></div>
+		  
+			 ### Sidebar Left End ### -->
 
-			<!-- ### Sidebar Left End ### -->
-
-			<!-- ### Sidebar Right ### -->
+			<!-- ### Sidebar Right ### 
 
 			<div id="sidebarright">
 
@@ -131,7 +168,7 @@
 
 			</ul></div>
 
-			<!-- ### Sidebar Right End ### -->
+			 ### Sidebar Right End ### -->
 
 		</div>
 		
@@ -141,7 +178,7 @@
 	
 
 	<div id="contentb">
-	<p>Copyright © 2009 YourSite.com - 
+	<p>Copyright © 2012 YourSite.com - 
 
 	
 	<!-- ### Please leave this small link back to my site. Thank You! ### -->
@@ -149,4 +186,5 @@
 	</div>
 </div>
 	
-</body></html>
+</body>
+</html>

@@ -14,7 +14,7 @@ a, a:visited, a:active {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover {	
 	color: #27609b;
 	text-decoration: underline;
 }
@@ -42,7 +42,7 @@ img.alignleft {
 	display: inline;
 	}
 	
-#container {
+#contenedor {
 	width: 960px;
 	margin: 0 auto;	
 	padding: 0px;
@@ -57,6 +57,9 @@ img.alignleft {
 	float: left;
 	border-left: 1px solid #7fabda;
 	border-right: 1px solid #7fabda;
+}
+.imagencabecera {
+	float: right;
 }
 
 #header h1 {
