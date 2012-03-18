@@ -145,11 +145,11 @@ img.alignleft {
 	text-decoration: underline;
 }
 
-#menuprincipal li a.highlight, #menuprincipal li a:visited.highlight, #menuprincipal li a:active.highlight {
+#menuprincipal li a.resaltado, #menuprincipal li a:visited.resaltado, #menuprincipal li a:active.resaltado {
 	background: url('images/blue-brh.gif') right top no-repeat;
 }
 
-#menuprincipal li a.highlight span, #menuprincipal li a:visited.highlight span, #menuprincipal li a:active.highlight span {
+#menuprincipal li a.resaltado span, #menuprincipal li a:visited.resaltado span, #menuprincipal li a:active.resaltado span {
 	background: url('images/blue-blh.gif') top left no-repeat;
 }
 
