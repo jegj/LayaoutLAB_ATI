@@ -414,6 +414,10 @@ img.alignleft {
 	float: right;
 }
 
+a.nolistado {
+	color:RED;
+}
+
 /*****************NO USADO**********************/
 /***********************************************/
 .posted a, .posted a:visited, .posted a:active {
