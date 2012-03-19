@@ -21,7 +21,7 @@
 		<div id="menuprincipal">
 		  <ul>
 		    <li><a href="#" class="resaltado"><span>Materias</span></a></li>	
-		    <li><a href="#"><span>Entregas Pendiente</span></a></li>	
+		    <li><a href="#"><span>Entregas Pendientes(Alumno)</span></a></li>	
 		    <!--<li><a href="#"><span>Materias que usan </span></a></li>	-->
 		  </ul>
 		</div>
@@ -32,7 +32,7 @@
 		<div id="contenedorterciario">
 		
 		  <div class="mensajeprincipal">
-		    <h2>Materias</h2>
+		    <h2>Materias de este Semestre</h2>
 		  </div>
 		  
 		  <div class="mensajeprincipal">
@@ -41,6 +41,8 @@
 		      <p>Numero de Entregas Totales:15</p>
 		      <p>Entregas Faltantes:14</p>
 		      <p>Entrega proxima:Proyecto 1 ,El regreso de Lyam</p>
+		      <a href=#>Listado de Alumnos</a><br><br>
+		      <a href=#>Agregar Entrega</a>
 		    </div>
 		  </div>
 		  
@@ -50,6 +52,8 @@
 		      <p>Numero de Entregas Totales:15</p>
 		      <p>Entregas Faltantes:14</p>
 		      <p>Entrega proxima:Proyecto 1 ,Intervalos</p>
+		      <a href=#>Listado de Alumnos</a><br><br>
+		      <a href=#>Agregar Entrega</a>
 		    </div>
 		  </div>
 		  
@@ -59,6 +63,8 @@
 		     <p>Numero de Entregas Totales:15</p>
 		      <p>Entregas Faltantes:14</p>
 		      <p>Entrega proxima:Proyecto 1 ,ShellScript</p>
+		      <a href=#>Listado de Alumnos</a><br><br>
+		      <a href=#>Agregar Entrega</a>
 		    </div>
 		  </div>
 		  
@@ -68,6 +74,8 @@
 		      <p>Numero de Entregas Totales:15</p>
 		      <p>Entregas Faltantes:14</p>
 		      <p>Entrega proxima:Proyecto 1 ,Buscaminas</p>
+		      <a href=# style="color: RED">Listado de Alumnos(Crear lista de alumnos)</a><br><br>
+		      <a href=#>Agregar Entrega</a>
 		    </div>
 		  </div>
 		
@@ -102,9 +110,10 @@
 		<div class="cuadro">
 		<h2>Bienvenido Javier</h2>
 		<ul>
-		  <li><a href="#">Agregar Materia</a></li>
-		  <li><a href="#">Agregar Entrega</a></li>
-		  <li><a href="#">Cambiar Información</a></li>
+		  <li><a href="#">Agregarse a una Materia</a></li>
+		  <li><a href="#">Eliminar Materia</a></li>
+		  <li><a href="#">Cambiar Clave</a></li>
+		  <br><br>
 		  <li><a href="index.html">Cerrar Sesion</a></li>
 		</ul>
 <!--
@@ -127,9 +136,10 @@
 		
 		
 		<ul>  
-			<li><h2>Busqueda de Entregas:</h2>
+			<li><h2>Busqueda de Alumno:</h2>
 			<form id="idformulariobusqueda" method="get" action="#">
 				<div>
+				   <label for="ncampobusqueda">Cedula:</label><br>
 				  <input type="text" value="" name="ncampobusqueda" id="idcampobusqueda">
 				  <input type="submit" value="Buscar" name="nbuscar" id="idsubmit">
 				</div>
@@ -137,12 +147,12 @@
 			</li>
 			 
 			<li>
-			  <h2>Entregas Recientes:</h2>
+			  <h2>Entregas Pendientes(Profesor):</h2>
 			  <ul>
-				  <li><a href="#">Busqueda de Lyam</a></li>
-				  <li><a href="#">Buscaminas</a></li>
-				  <li><a href="#">ShellScript</a></li>
-				  <li><a href="#">Intervalos</a></li>
+				  <li><a href="#">Busqueda de Lyam(EstrDat)</a></li>
+				  <li><a href="#">Buscaminas(Leng)</a></li>
+				  <li><a href="#">ShellScript(S.O)</a></li>
+				  <li><a href="#">Intervalos(AlgProg)</a></li>
 			  </ul>
 			</li>
 			
