@@ -147,6 +147,7 @@ img.alignleft {
 	text-decoration: underline;
 }
 /***topmenu***/
+/***resaltado=hightlight***/
 #menuprincipal li a.resaltado, #menuprincipal li a:visited.resaltado, #menuprincipal li a:active.resaltado {
 	background: url('images/blue-brh.gif') right top no-repeat;
 }
